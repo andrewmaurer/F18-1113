@@ -1,0 +1,72 @@
+\documentclass{article}
+
+\usepackage{enumerate}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{multicol}
+%\pgfplotsset{compat=newest}
+
+\usepackage[margin=0.5in]{geometry}
+
+\begin{document}
+
+\noindent \textbf{Name:}\underline{\hspace{2in}} \hfill \textbf{Handout October 18}
+\\ \\
+
+\begin{enumerate}
+\item Draw the terminal side of the given angle, where the initial angle is provided.
+  \begin{multicols}{2}
+    \begin{enumerate}
+    \item $\theta = 120^\circ$
+      \vspace{0.5in}
+    \item $\theta = 2 \pi / 3$ rad
+      \vspace{0.5in}
+    \item $\theta = 240^\circ$
+      \vspace{0.5in}
+    \item $\theta = -9\pi/4$ rad
+      \vspace{0.5in}
+    \end{enumerate}
+  \end{multicols}
+  \vspace{0.5in}
+\item Convert the following radians to degrees.
+  \begin{multicols}{3}
+    \begin{enumerate}
+      \setlength\itemsep{0.8in}
+    \item $-4/3 \pi$ rad
+    \item $15/2 \pi$ rad
+    \item $8/3 \pi$ rad
+    \item $15$ rad
+    \item $-200$ rad
+    \item $20$ rad
+    \end{enumerate}
+  \end{multicols}
+  \vspace{0.5in}
+\item Convert the following degrees to radians.
+  \begin{multicols}{3}
+    \begin{enumerate}
+      \setlength\itemsep{0.8in}
+    \item $-30^\circ$
+    \item $150^\circ$
+    \item $500^\circ$
+    \item $15\pi^\circ$
+    \item $15 / \pi ^\circ$
+    \item $e^\circ$
+    \end{enumerate}
+  \end{multicols}
+  \vspace{0.5in}
+\item Which of the following angles, when drawn in standard position, are coterminal to $\pi/4$ rad? (Circle them)
+\\ \\
+\noindent $-3 \pi / 4$ rad \hfill $5 \pi / 4$ rad \hfill $5 \pi / 8$ rad \hfill $-11 \pi / 4$ rad
+\\ 
+\item Which of the following angles, when drawn in standard position, are coterminal to $20^\circ$? (Circle them)
+  \\ \\
+\noindent $340^\circ$ \hfill $380^\circ$ \hfill $-20^\circ$ \hfill $-340^\circ$ \hfill $-380^\circ$
+\\ 
+\item What angle is complementary to the given angle? Supplementary?
+  \begin{enumerate}
+  \item 
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}

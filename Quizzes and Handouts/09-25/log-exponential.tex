@@ -1,0 +1,85 @@
+\documentclass{article}
+
+\usepackage{enumerate}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{multicol}
+\usepackage{tcolorbox}
+%\pgfplotsset{compat=newest}
+
+\newcommand{\greybox}[2]{\begin{tcolorbox}\textbf{#1:}\\ {#2}\end{tcolorbox}}
+
+
+\usepackage[margin=0.5in]{geometry}
+
+\begin{document}
+
+\noindent \textbf{Name:}\underline{\hspace{2in}} \hfill \textbf{Logs and Exponentials}
+
+\begin{multicols}{2}
+  \greybox{Exponential Rules}{$a$, $b$, and $c$ are numbers, and $a > 0$:
+    \begin{enumerate}
+    \item $a^0 = 1$
+    \item $a^1 = a$
+    \item $a^{-b} = 1 / a^b$
+    \item $a^b \cdot a^c = a^{b + c}$
+    \item $(a^b)^c = a^{bc}$
+    \end{enumerate}
+  }
+  \greybox{Logarithm Rules}{
+    $a$, $b$, and $c$ are numbers, and $a > 0$.
+    \begin{enumerate}
+    \item $\log_a(1) = 0$
+    \item $\log_a(a) = 1$
+    \item $\log_a(1/b) = - \log_a(b)$
+    \item $\log_a(b \cdot c) = \log_a(b) + \log_a(c)$
+    \item $\log_a(b^c) = c \log_a(b)$
+    \end{enumerate}
+  }
+  
+\end{multicols}
+\begin{enumerate}
+\item Calculate the following numbers or simplify the expression:
+  \begin{multicols}{3}
+    \begin{enumerate}
+      \setlength\itemsep{4em}
+    \item $(2^2)^2$
+    \item $(3^{2 + 4})^2$
+    \item $(2^{3x + 2})^{3x-2}$
+    \item $ x^{2y} \cdot (x^3)^{y}$
+    \item $((4^3)^2)^1$
+    \item $(4x)^y$
+    \end{enumerate}
+  \end{multicols}
+  \vspace{3em}
+\item Calculate the following numbers or simplify the expression:
+  \begin{multicols}{3}
+    \begin{enumerate}
+      \setlength\itemsep{3em}
+    \item $\log_3(27)$
+    \item $\log_3(9^2)$
+    \item $\log_2(4^x)$
+    \item $\log_2(4 \cdot x^y)$
+    \item $\log_e(e^e)$
+    \item $\log_e(e^0)$
+    \end{enumerate}
+  \end{multicols}
+  \vspace{3em}
+\item Find the value of $x$ that makes the expression true. Don't use a calculator.
+  \begin{multicols}{2}
+    \begin{enumerate}
+      \setlength\itemsep{4em}
+    \item $2^x = 4^{x + 2}$
+    \item $2^{x + 4} = 3^{-x + 3}$
+    \item $2^{x + 4} = (\frac{1}{2})^{x^2 - 2}$
+    \item $2^3 = 2^{x + 4}$
+    \item $e^x = 2^y$
+    \item $ e^x = (e^2)^{x+2} $
+    \end{enumerate}
+  \end{multicols}
+  \vspace{3em}
+  \item How are the graphs of $f(x) = a^x$ and $g(x) = b^x$ related? The graphs of $f(x) = \log_a(x)$ and $g(x) = \log_b(x)$?
+\end{enumerate}
+
+\end{document}

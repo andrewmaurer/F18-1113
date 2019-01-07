@@ -1,0 +1,264 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{ifpdf}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multicol}
+
+\pagestyle{empty}
+
+\renewcommand{\baselinestretch}{1.0}
+
+\begin{document}
+\noindent\textbf{Precalculus (Math 1113).} \hfill Andrew Maurer
+\\
+\url{www.math.uga.edu/1113} \hfill \href{mailto:abm41450@uga.edu}{\texttt{abm41450@uga.edu}}
+\\
+\href{http://andrewmaurer.github.io/1113-f18}{\texttt{andrewmaurer.github.io/1113-f18}} \hfill Boyd 434H
+\\
+
+\noindent Welcome to the Fall 2018 section of Math 1113,
+Precalculus. The course is designed to offer a broad introduction
+to the topics necessary to succeed in calculus. We will examine a
+range of issues from the definition of function, exponential and
+logarithmic functions, and trigonometric functions. The goal is not to
+solve particular equations. Our goal is to understand the different
+techniques and approaches.
+
+
+
+% \vspace{1em} \noindent
+% We will explore the following topics:\vspace{.5em}\\
+% \begin{tabular}{|l@{\hspace{1em}}p{30em}|} \hline
+%   \textit{Topic} & \textit{Important Ideas} \\  \hline \hline
+%   Function                & Determine the relationship between dependent
+%                             and independent variables. Determine the
+%                             range and domain of a given function. \\ \hline
+%   Inverse Function        & Determine an inverse function and relate
+%                             it to the original function. \\ \hline
+%   Exponential Functions   & Define functions that model various
+%                             phenomena and compare to other relationships
+%                             such as linear and quadratic functions. \\ \hline
+%   Logarithmic Functions   & Relate logarithmic functions to exponential 
+%                             functions and solve equations with both
+%                             exponential and logarithmic terms. \\ \hline
+%   Trigonometric Functions & Relate trigonometric functions to the unit
+%                             circle, define functions that model
+%                             physical phenomena, solve equations with
+%                             trigonometric terms, and define inverse
+%                             functions for trigonometric functions. \\ \hline
+% \end{tabular}
+
+% \vspace{1em} \noindent
+% Our evaluation is based on the following expectations:\vspace{.5em} \\
+% \begin{tabular}{|l@{\hspace{2em}}p{31em}|} \hline
+%   \textit{Quality of Work}    & \textit{Expectations} \\ \hline\hline
+%   Needs Improvement  & Cannot identify basic equations 
+%                        Cannot determine solutions for basic systems of
+%                      equations \\ \hline
+%   Satisfactory       & Can identify and solve all basic equations 
+%                        Can determine solutions of all basic equations \\ \hline
+%   Good               & Derive own systems \\
+%                      & Determine solutions and stability of own systems \\ \hline
+%   Excellent          & Tie together different concepts to
+%                        solution techniques 
+%                        Can determine solution to any one system using
+%                        a variety of techniques \\ \hline
+% \end{tabular}
+
+
+%Here is the basic information for this course:
+\begin{description}
+\item[Textbook:] \emph{Precalculus}, by Julie Miller and Donna Gerkin, McGraw
+  Hill (ISBN: 978-1-30-700456-4). A special edition for UGA is available at a reduced rate. You will need access to the \emph{ALEKS 360}
+  homework system which is included with the UGA edition of the
+  book.
+
+\item[Description:] Preparation for calculus, including an intensive
+  study of algebraic, exponential, logarithmic, and trigonometric
+  functions and their graphs. Applications include simple
+  maximum/minimum problems, exponential growth and decay, and
+  surveying problems.
+
+  A central idea is the definition of functions including the ability
+  to work the range and domain of a function as well as the
+  inverse. You should be able to work with exponential and logarithmic
+  functions, be able to solve equations with exponents, and know the
+  relationship between the exponential and logarithmic functions. You
+  should be able to work with the definitions of the trigonometric
+  functions, the unit circle, and be able to work with the inverses of
+  the basic trigonometric functions.
+
+\item[Course Goals:] Be able to define functions that describe various
+  physical phenomena. Be able to manipulate relationships to isolate
+  particular quantities of interest. Demonstrate a working knowledge
+  of the domain and range of a function and the relationship between
+  the range and domain.
+
+\item[Tutoring Resources:] There are a number of resources available to
+  you to help you succeed in the course. These include your instructor's
+  office hours, mathematics department study hall, and free tutoring
+  through the division of academic enhancement.
+  
+\item[Attendance:] Students who have more than three unexcused absences
+  will be withdrawn from the course with a grade of W before the
+  midpoint of the term. After the midpoint for the term the grade will
+  be an F. If you repeatedly leave class early or
+  arrive late it may be counted as an absence. 
+
+\item[Announcements:] You are responsible for all announcements made in
+  class regardless of your attendance.
+
+\item[Correspondence:] If you would like to contact me, please use my
+  UGA email address \href{mailto:abm41450@uga.edu}{\texttt{abm41450@uga.edu}} \emph{from your UGA email
+  address}. I do my best to return all emails quickly. If
+  I have not responded to your email within 48 hours, please assume I
+  did not receive the email and try sending it again.
+
+\item[Homework:] Homework will be assigned throughout the course. Most
+  will be due on \emph{ALEKS}. Do not expect to watch your instructor work
+  through a problem and then understand how to do it. Mathematics is
+  best learned by doing it, and you should practice until you are
+  proficient. It is no different than learning music or athletic
+  skills. 
+
+\item[Grading:] %~ \\ %\samepage
+  
+  The final grades are calculated using the following distribution:
+\begin{multicols}{2}
+  \begin{center}
+  \begin{tabular}{c  c}
+    3 In-Class Tests & 45\% \\
+    Homework & 15\% \\
+    Quizzes and Activities  & 10\% \\
+    Basic Skills Tests & 5\% \\
+    Final Exam & 25\%
+  \end{tabular}
+  \end{center}
+  \columnbreak
+  \begin{center}
+    \begin{tabular}{|l r | l r|}
+      \hline
+      A & 93\% & C+ & 77\% \\
+      A-- & 90\%&  C & 73\% \\
+      B+ & 87\% & C-- & 70\% \\
+      B & 83\% & D & 65\% \\
+      B-- & 80\% & F & $<$ 65\%\\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{multicols}
+
+  If your final exam is higher than your lowest exam score from the
+  first three exams, then the lowest exam score will be replaced with
+  %the average of the lowest exam score and 
+  the final exam score. This
+  is only an option for students who maintain good standing in the
+  course and maintain regular attendance, at the instructor's discretion.
+
+\item[Test Dates:] Tests will take place at normal class time and are tentatively scheduled as follows:
+  \begin{center}
+    ~ \hfill September 13 \hfill October 11 \hfill November 15 \hfill ~
+  \end{center}
+
+  %The final exam will take place on DATE 3 from TIME 1 to TIME 2.
+
+\item[Basic Skills Tests:] In addition to written tests there will be
+  basic skills tests that will take place in the Mathematics
+  Department's testing center. These will be tests on Webassign, and
+  the focus is on calculations and basic ideas. There will be four
+  rounds of tests. In each round there will be two tests, and your
+  grade for each round will be the higher of the two grades. The first
+  three rounds will focus on specific material, and the final round
+  will be comprehensive. The dates for these tests will be announced
+  in class.
+
+\item[Calculator Policy:] The recommended calculator for the course is
+  the TI-30xs. It is available at the book store, many retail outlets,
+  and many on-line sites. You may not use a calculator that can
+  perform any basic algebra steps. \textit{You may use any calculator in class but
+  may only use approved calculators on quizzes or tests.}
+
+\item[Make up Policy:] The right to miss a scheduled exam and take a
+  make up exam can be awarded only by your instructor, and will be
+  awarded rarely and only for a serious cause.  \textbf{Do not count
+    on being able to make up a test until you have explicit permission
+    from your instructor. }  If for some reason you must miss an exam,
+  you must apply in writing {\bf before} the exam.
+
+\item[Late Submission:] If you submit work after a deadline without obtaining
+  permission then you will not receive any credit for the assignment. 
+
+\item[Grading Issues:]  Questions about grading of any work should be submitted
+  to your instructor within one week of the return of the
+  work.
+
+\item[Academic Accommodations:] If you require any kind of special
+  accommodation please see your instructor.  Requests for academic
+  accommodations should be made as soon as possible and at least one
+  week prior to a graded activity to insure that we provide the proper
+  resources.  Students must register with the Disability Resource
+  Center, to verify their eligibility for appropriate accommodations.
+
+
+%\item[Other Important Numbers]
+%    ~ \\
+%    \begin{tabular}{l}
+%      Department of Mathematics and Computer Science      \\
+%      357 Science Center    \\
+%      268-2395
+%    \end{tabular}
+
+% \chardef\home=126
+
+% \item[Web-Quizzes:] There will be seven web based quizzes available on
+%   Webassign. The lowest web based quiz will be dropped in the
+%   calculation of your final score.  The quizzes will consist of ten
+%   problems and will be similar to the book or Webassign problems. The
+%   due dates will be made available on Webassign. There will also be in
+%   class quizzes which will generally be announced before they are
+%   given. There may be additional unannounced quizzes.
+
+\item[Quizzes:] In-class quizzes can be announced or unannounced. A student who is late for a quiz will not receive additional time.
+
+
+\item[Homework:] Most homework problems will be due on ALEKS, with some additional hand-written or typed assignments. Please pay close attention to the due dates posted on ALEKS.
+
+\item[Office Hours:] Office hours will be decided next week, once class
+  rosters and schedules are a bit more finalized. This week, and in following
+  weeks, feel free to meet with me after class or set up an appointment.
+
+\item[Electronics:] Use of cell phones and other electronic devices is limited to relevant academic use. If a student misuses an electronic device, he or she will be asked to  put it away. Repeated or consistent use of electronic devices for irrelevant or nonacademic reasons, or use that subtracts from the learning atmosphere, will result in the student's dismissal from the class meeting.
+  
+\item[Academic Integrity:] As a University of Georgia student, you have
+  agreed to abide by the University's academic honesty policy, ``A
+  Culture of Honesty,'' and the Student Honor Code. All academic work
+  must meet the standards described in ``A Culture of Honesty'' found
+  at:
+  \url{https://ovpi.uga.edu/academic-honesty/academic-honesty-policy}. Lack
+  of knowledge of the academic honesty policy is not a reasonable
+  explanation for a violation. Questions related to course assignments
+  and the academic honesty policy should be directed to the
+  instructor.
+
+
+
+
+%\item[Topics covered] ~
+%
+
+
+\end{description}
+\begin{center}
+\textbf{The course syllabus is a general plan for the course;
+  deviations announced to the class by the instructor may be
+  necessary.}
+\end{center}
+\vfill
+\noindent\tiny{\emph{Syllabus updated \today.}}
+\end{document}
+
+
+%  LocalWords:  Precalculus Swokowski Cengage Webquizzes  Webassign
+%  LocalWords:  UGA uga

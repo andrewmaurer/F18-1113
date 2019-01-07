@@ -1,0 +1,44 @@
+\documentclass{article}
+
+\usepackage{enumerate}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{multicol}
+%\pgfplotsset{compat=newest}
+
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\noindent \textbf{Name:}\underline{\hspace{2in}} \hfill \textbf{Quiz 1: August 28}
+
+\begin{enumerate}
+\item The following is the graph of $y = - x \cdot (x-1) \cdot (x+1)$.
+  \begin{multicols}{2}
+  \begin{tikzpicture}
+    \begin{axis}[domain=-2:2,axis lines=middle]
+      \addplot+[mark=none] {-x * (x-1) * (x+1)};
+    \end{axis}
+  \end{tikzpicture}
+  \begin{enumerate}
+  \item What are the $x$-intercepts of this graph?
+    \vspace{0.5in}
+  \item What are the $y$-intercepts of this graph?
+    \vspace{1in}
+  \item Express, using interval notation, all points where $-x \cdot (x-1) \cdot x+1$ is a \emph{positive} number.
+  \end{enumerate}
+\end{multicols}
+\vspace{1in}
+\item The temperature, measured in Fahrenheit, is linearly related to the temperature, measured in Celsius.
+  \begin{enumerate}
+  \item   Use the fact that $0^\circ C = 32^\circ F$ and $100^\circ C = 212^\circ F$ to express degrees Fahrenheit in terms of degrees Celsius. (Hint: what is the input variable? what is the output?)
+    \vspace{1in}
+  \item Use the information from (a) to express to express degrees Celsius in terms of degrees Fahrenheit.
+    \vspace{1in}
+  \item Is the temperature, measured in Fahrenheit, ever equal to the temperature, measured in Celsius? If yes, give the value. If no, explain why not.
+  \end{enumerate}
+
+\end{enumerate}
+
+\end{document}

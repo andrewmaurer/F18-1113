@@ -1,0 +1,80 @@
+\documentclass{article}
+
+\usepackage{enumerate}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{multicol}
+%\pgfplotsset{compat=newest}
+
+\usepackage[margin=0.5in]{geometry}
+
+\begin{document}
+
+\noindent \textbf{Name:}\underline{\hspace{2in}} \hfill \textbf{Handout September 25}
+\\ \\
+
+\begin{enumerate}
+\item (Multiple choice) A point $P(a,b)$ is on the graph of a function $f$ means that:
+\begin{multicols}{2}
+  \begin{enumerate}
+    \setlength\itemsep{.5em}
+  \item $a = f(b)$
+  \item $f(b) - f(a) = 0$
+  \item $b = f(a)$
+  \item $\text{AROC} = (f(b) - f(a)) / (b-a)$
+  \end{enumerate}
+\end{multicols}
+\item Find the inverse functions to the following functions, or explain why no such function exists. (Be sure to specify the domain of the inverse function.)
+  \begin{enumerate}
+    \setlength\itemsep{1in}
+  \item \[\alpha(x) = \frac{10-x}{10 + x}\]
+  \item ~
+    \begin{table}[h]
+      \centering
+      \begin{tabular}{|c|c c c c c c|}
+        \hline
+        $x$ & ``please'' & ``excuse'' & ``my'' & ``dear'' & ``aunt'' & ``Sally'' \\
+        \hline
+        $q(x)$ & ``()'' & ``$\wedge$'' &  $\times$ & $\div$ & $+$ & $-$ \\
+        \hline
+      \end{tabular}
+    \end{table}
+  \item
+    \[
+      \text{ReLU}(x) =
+      \begin{cases}
+        x &\text{ if } x \geq 0 \\
+        0 &\text{ if } x < 0
+      \end{cases}
+    \]
+    \vspace{1in}
+    
+  \end{enumerate}
+
+\item If we know $j$ is a one-to-one function, with $j(1) = 1$, $j(2) = 4$, $j(5) = 25$, and $j(6) = 30$. List four points that \emph{must} lie on the graph of $j^{-1}$.
+  \pagebreak
+\item You have some money, and will be depositing it into the bank for several years at an interest rate of $r$. Put the following compounding methods in order from least-interest-gained to most-interest-gained.
+  \begin{multicols}{2}
+  \begin{enumerate}
+  \item Compounded monthly
+  \item Compounded continuously
+  \item Compounded quarterly
+  \item Compounded annually
+  \end{enumerate}
+\end{multicols}
+\vspace{0.5in}
+\item After the birth of your first child, you are looking to start a college fund with \$10,000 you have saved. There are several banking options, and you want to start an account that will yield the most money in 18 years. Which option is best?
+  \begin{multicols}{2}
+    \begin{enumerate}
+    \item 5\% annually, compounded annually
+    \item 4\% annually, compounded continuously
+    \item 4.5\% annually, compounded monthly
+    \item 4\% annually, compounded quarterly
+    \end{enumerate}
+  \end{multicols}
+  \vspace{3in}
+\item Your elderly grandfather reveals to you that he and five friends joined a tontine fifty-five years ago. This tontine carried 6\% interest (compounded continuously) and is currently worth \$1.5 million. How much did each participant pay to join?
+\end{enumerate}
+
+\end{document}

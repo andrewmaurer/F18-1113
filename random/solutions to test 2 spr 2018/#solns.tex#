@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+
+\usepackage{draftwatermark}
+\SetWatermarkScale{4}
+
+\begin{document}
+
+\title{Solutions to Test 2 Spring 2018}
+\date{\today}
+\author{Andrew Maurer}
+
+\maketitle
+
+Keep in mind these solutions were hastily typed up in an airport
+
+\end{document}
